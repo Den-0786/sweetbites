@@ -1,0 +1,117 @@
+.sweetbite-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 1rem;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.sweet{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: oblique;
+}
+.oclock{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(112, 47, 47);
+}
+.satisfy{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: brown;
+}
+.oc{
+    width: 20px;
+    height: 20px;
+}
+.us{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+
+}
+.images{
+    flex: 1;
+    padding: 0.4px;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    gap: 15px;
+    height: 200px;
+}
+.pricing-plan{
+    flex: 1;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    text-align: center;
+}
+.plan-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.plan-price{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.plan-feature{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.plan-feature li{
+    margin-bottom: 20px;
+}
+.plan-button{
+    padding: 10px;
+    border: none;
+    background-color: #ff6600;
+    border-radius: 10px;
+    color: white;
+}
+#orders{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+#treats{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+.footer{
+    font-style: italic;
+    color: brown;
+    text-align: center;
+}
+
+@media (max-width: 706px){
+    .sweetbite-container{
+        flex-direction: column;
+        height: 100%;
+    }
+    .footer{
+        text-align: center;
+        flex-direction: column;
+        height: 100%;
+    }
+    .images{
+        height: 100%;
+        margin: 20px;
+        flex-direction: column;
+    }
+}
